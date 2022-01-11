@@ -19,19 +19,19 @@ private http: HttpClient,
   ) { }
 
 entrar(usuarioLogin: UsuarioLogin): Observable<UsuarioLogin>{
-  return this.http.post<UsuarioLogin>('http://localhost:8080/usuarios/logar', usuarioLogin)
+  return this.http.post<UsuarioLogin>('http://techdelas.heroku.com/usuarios/logar', usuarioLogin)
 
 
 }
 
 cadastrar(usuario: Usuario): Observable<Usuario>{
-  return this.http.post<Usuario>('http://localhost:8080/usuarios/cadastrar', usuario)
+  return this.http.post<Usuario>('http://techdelas.heroku.com/usuarios/cadastrar', usuario)
 
 
 }
 getByIdUsuario(id: number): Observable<Usuario>{
 
-  return this.http.get<Usuario>(`http://localhost:8080/usuarios/${id}`)
+  return this.http.get<Usuario>(`http://techdelas.heroku.com/usuarios/${id}`)
 }
 
 logado(){
