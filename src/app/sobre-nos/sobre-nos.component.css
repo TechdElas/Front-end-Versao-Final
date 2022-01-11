@@ -1,0 +1,85 @@
+
+
+.texto {
+  padding-top: 120px;
+}
+
+
+
+.devs-sobre {
+  list-style: none;
+  padding: 3px;
+}
+
+.devs-sobre li {
+  margin: 2%;
+  padding: 5px;
+}
+
+.fs-20{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-color{
+  background-color: rgb(246, 239, 252);
+
+}
+
+body{
+  background-color: rgb(242, 234, 248);
+}
+
+.tech{
+  background-color: rgb(252, 238, 250);
+}
+
+/* TECNOLOGIAS UTILIZADAS */
+
+#tecnologiasUtilizadas {background:white;margin:0;}
+
+ul.tecnologiasUtilizadas{
+	padding:0;
+	list-style-type:none;
+}
+
+#tecnologiasUtilizadas .row{text-align:center;margin-bottom:30px;}
+
+#tecnologiasUtilizadas img{
+  width:90px;
+  height:100px;
+  margin:5px;
+}
+
+#tecnologiasUtilizadas img:hover{
+  cursor:pointer;
+  opacity:0.7;
+  transition:0.2s ease-in;
+}
+
+.faixa-tecnologias{
+  background:#D99AE6;
+  clip-path: polygon(0 0%, 100% 10%, 100% 90%, 0% 100%);
+  padding-top:60px;
+  padding-bottom:60px;
+}
+
+.faixa-tecnologias:last-child{
+  clip-path: polygon(0 0%, 100% 10%, 100% 100%, 0% 100%);
+}
+
+.fa-github{
+
+  color: rgba(1, 1, 2, 0.87);
+}
+
+.fix-clip-space{
+  width:100%;
+  height:20px;
+  background:#bb8baf;
+}
+
+.faixa-tecnologias h3 a {color:white;}
+.faixa-tecnologias h3 a:hover {text-decoration:none;}
+
+#der {width:100%;min-height:250px;border:1px solid #ccc;}

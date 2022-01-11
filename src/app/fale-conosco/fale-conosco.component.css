@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.container h5 {
+  color: #bb916a;
+  font-weight: 700;
+}
+
+input, textarea {
+  width: 100%;
+  background: #bb916a40;
+  border-radius: 10px;
+  border: 0;
+  padding: 0 10px;
+}
+
+textarea:focus, input:focus {
+  box-shadow: 0 2px 0 0 #bb916a;
+  border: 0 none;
+  outline: 0;
+  background: #fff;
+  color: #1a0dd4;
+}
+
+#btng {
+  display: flex;
+  justify-content: center;
+}
+
+#btn1 {
+  background-image: linear-gradient(45deg, #fbfeff, #bb916a);
+  margin: 0 20px;
+  font-weight: 700;
+}
+
+#btn1:hover {
+  background-image: linear-gradient(45deg, #a4e7f3, #e96f0b);
+}
+
+.bg-faleconosco{
+  background-color: #ffefb6;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+

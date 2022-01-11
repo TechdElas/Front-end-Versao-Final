@@ -1,0 +1,29 @@
+#img-bg{
+
+  background-image: url('https://i.imgur.com/ijXYLC9.png');
+  min-height: 695px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  }
+
+  .bg-fundo {
+
+    background-image: url('https://i.imgur.com/2WYyvm1.jpg');
+  min-height: 569px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+
+  .sombra{
+
+    box-shadow: 1px 1px 10px #7b7974;
+  }
+
+
+
+ 

@@ -1,0 +1,45 @@
+.bg-rodape
+ {
+
+background-image: linear-gradient(#f4f0f3,  #e2a8da);
+
+ }
+
+
+ .bg-cop{
+
+  background-color: #bb8baf;
+ }
+
+ul.social-network{
+
+  list-style: none;
+  padding: 0;
+}
+
+ul.social-network li{
+
+  display: inline;
+  margin: 0;
+  padding: 5px;
+}
+.fa{
+
+  font-size: 35pt;
+color: white;
+padding: 10px;
+
+}
+.fa-facebook-square:hover{
+  color:darkcyan;
+
+}
+.fa-instagram:hover{
+
+color: crimson;
+}
+
+.fa-github:hover{
+
+  color: rgba(1, 1, 2, 0.87);
+  }

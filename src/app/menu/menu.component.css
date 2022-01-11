@@ -1,0 +1,47 @@
+
+.fs-18{
+    font-size: 18pt;
+    color: #9f889f;
+
+}
+
+.bg-home{
+margin: right 0%;
+  background-image: url('https://i.imgur.com/ggFSBcM.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fas {
+  position: relative;
+  width: 36px;
+  font-size: 24px;
+  color: #6F1E51;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fas {
+  top: 3px;
+  line-height: 12px;
+}
+
+
+.navbar-icon-top .navbar-nav .nav-link > .img-fluid{
+    position: relative;
+    width: 36px;
+    font-size: 24px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .foto{
+    top: 3px;
+    line-height: 12px;
+}
+
+.bg-jubutrom{
+  background-color: #f6e2c4
+}
+
+body{
+  background-color: #f6e2c4;
+}

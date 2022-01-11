@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+.fs-54{
+
+  font-size: 54pt;
+}
+
+.fs-18{
+font-size: 18pt;
+
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+.bg-home{
+  margin: right 0%;
+    background-image: url('https://i.imgur.com/ggFSBcM.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }

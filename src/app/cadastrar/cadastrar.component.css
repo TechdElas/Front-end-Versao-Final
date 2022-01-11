@@ -1,0 +1,36 @@
+#img-bg{
+
+  background-image: url('https://i.imgur.com/l66CFaL.png');
+  min-height: 695px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  }
+
+  .bg-fundo {
+
+    background-image: url('https://i.imgur.com/2WYyvm1.jpg');
+  min-height: 569px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .sombra{
+
+    box-shadow: 2px 2px 10px #7b7974;
+  }
+
+
+
+  /*Fontes da pagina*/
+  h1{
+
+    font-family: Arial, Helvetica, sans-serif
+
+  }
+
+
+

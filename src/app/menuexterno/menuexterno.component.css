@@ -1,0 +1,14 @@
+.fs-18{
+    font-size: 18pt;
+    color: #9f889f;
+
+}
+
+.bg-home{
+margin: right 0%;
+  background-image: url('https://i.imgur.com/ggFSBcM.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}

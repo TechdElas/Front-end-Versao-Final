@@ -1,0 +1,55 @@
+.postar {
+  background-color: #f4f0f3;
+}
+
+.postar:hover {
+  background-color: #f4f0f3;
+}
+
+.bg-principal {
+background-image: linear-gradient(#f6f1f6, #f8dfed);}
+
+.body {
+  background-color: #f4f0f3;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.imput{
+  background-color: #ffb9ce;
+}
+
+
+.bg-image {
+  background-color: #ffefb6;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 70vh;
+}
+
+.mt-custom {
+  margin-top: 90px;
+}
+
+.fs-46 {
+  font-size: 46pt;
+}
+.borda{
+  border-radius: 50px;
+}
+.color{
+  color: black;
+}
+.sombra{
+
+  box-shadow: 1px 1px 10px #7b7974;
+}
+
+.card-color{
+  background-color: #f4f0f3;
+}
+.card-color2{
+  background-color: #f7cdf7;
+}
