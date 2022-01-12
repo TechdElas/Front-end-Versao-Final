@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
@@ -11,50 +11,53 @@ import { UsuarioLogin } from '../model/UsuarioLogin';
 })
 export class AuthService {
 
+
+
+
   constructor(
-private http: HttpClient,
+    private http: HttpClient,) { }
 
+  token = {
+    headers: new HttpHeaders().set('Authorization', environment.token),
+  };
 
-
-  ) { }
-
-entrar(usuarioLogin: UsuarioLogin): Observable<UsuarioLogin>{
-  return this.http.post<UsuarioLogin>('http://techdelas.herokuapp.com/usuarios/logar', usuarioLogin)
-
-
-}
-
-cadastrar(usuario: Usuario): Observable<Usuario>{
-  return this.http.post<Usuario>('http://techdelas.herokuapp.com/usuarios/cadastrar', usuario)
-
-
-}
-getByIdUsuario(id: number): Observable<Usuario>{
-
-  return this.http.get<Usuario>(`http://techdelas.herokuapp.com/usuarios/${id}`)
-}
-
-logado(){
-
-  let ok: boolean = false
-
-  if(environment.token != ''){
-    ok = true
+  entrar(usuarioLogin: UsuarioLogin): Observable<UsuarioLogin> {
+    return this.http.post<UsuarioLogin>('http://techdelas.herokuapp.com/usuarios/logar', usuarioLogin)
 
 
   }
-  return ok
-}
 
-adm(){
-  let ok: boolean = false
+  cadastrar(usuario: Usuario): Observable<Usuario> {
+    return this.http.post<Usuario>('http://techdelas.herokuapp.com/usuarios/cadastrar', usuario)
 
-  if (environment.tipo == 'adm'){
-    ok = true
+
+  }
+  getByIdUsuario(id: number): Observable<Usuario> {
+
+    return this.http.get<Usuario>(`http://techdelas.herokuapp.com/usuarios/${id}`)
   }
 
-  return ok
-}
+  logado() {
+
+    let ok: boolean = false
+
+    if (environment.token != '') {
+      ok = true
+
+
+    }
+    return ok
+  }
+
+  adm() {
+    let ok: boolean = false
+
+    if (environment.tipo == 'adm') {
+      ok = true
+    }
+
+    return ok
+  }
 
 }
 
